@@ -1,8 +1,8 @@
 <template>
   <div class="about">
-        <h2>{{dettagli.titolo}}</h2>
+        <h2>{{dettagli.title}}</h2>
         <ul>
-          <li>{{dettagli.text}}</li>
+          <li v-for="voce, i in dettagli.options" :key="i">{{voce}}</li>
         </ul>
       </div>
 </template>

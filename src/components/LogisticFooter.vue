@@ -28,9 +28,9 @@
       </div>
       <!-- about -->
       <LogisticVocifooter
-       v-for="(voci, i) in vociFooter"
+       v-for="(voce, i) in vociFooter"
         :key="i"
-        :dettagli="voci"/>
+        :dettagli="voce"/>
     </div>
   </div>
 </template>
@@ -47,41 +47,17 @@ export default {
     return {
       vociFooter: [
         {
-          titolo:"Abaout",
-          titolo_due:"Trasport",
-          titolo_tre:"Support"
+          title:"About",
+          options: ["Voce 1","voce2","voce3","voce4","voce5","voce6","voce7"]
         },
         {
-          text:"The compani",
-          text_due:"The compani",
-          text_tre:"The compani",
+          title:"Transport",
+          options: ["Voce 1","voce2","voce3","voce4","voce5","voce6","voce7"]
         },
         {
-          text:"institutional",
-          text_due:"The compani",
-          text_tre:"The compani",
-        }, 
-        {
-          text:"Social & events",
-          text_due:"The compani",
-          text_tre:"The compani",
-        },
-        {
-          text:"innovation",
-          text_due:"The compani",
-          text_tre:"The compani",
-        },
-        {
-          text:"enviroment",
-          text_due:"The compani",
-          text_tre:"The compani",
-        },
-        {
-          text:"Tecnologi",
-          text_due:"The compani",
-          text_tre:"The compani",
-        },
-        
+          title:"Company",
+          options: ["Voce 1","voce2","voce3","voce4","voce5","voce6","voce7"]
+        }
       ],
     };
   },

@@ -26,18 +26,20 @@
     </div>
     <!-- jumbotron -->
     <div id="jumbotron">
-    <div id="logo">
-      <h1 class="logoFattoaMano">NEXT</h1>
+      <div class="overlay"></div>
+      <div id="logo">
+        <h1 class="logoFattoaMano">NEXT</h1>
+      </div>
+      <h1 class="logoDue">GEN</h1>
+      <ul class="vocimenuCentratura">
+        <LogisticJumbotron
+          v-for="(voci, i) in vociMenu"
+          :key="i"
+          :dettagli="voci"
+        />
+      </ul>
     </div>
-    <h1 class="logoDue">GEN</h1>
-    <ul class="vocimenuCentratura">
-      <LogisticJumbotron
-        v-for="(voci, i) in vociMenu"
-        :key="i"
-        :dettagli="voci"
-      />
-    </ul>
-    </div>
+    <div class="logisticservice"></div>
   </div>
 </template>
 
@@ -69,11 +71,6 @@ export default {
         },
         {
           text: "GET IN TOUCH",
-        },
-      ],
-      vociFooter: [
-        {
-          text: "",
         },
       ],
     };
@@ -132,14 +129,20 @@ i {
   margin: 4px;
 }
 #jumbotron {
-/*   position: relative;
- */  margin-top: 5px;
+  /*   position: relative;
+ */
+  margin-top: 5px;
   background-image: url("../../src/assets/jumbo.jpg");
   background-repeat: no-repeat;
-  filter: brightness(0.6) contrast(1);
   height: 1130px;
   width: 100%;
   background-position: -133px -187px;
+}
+.overlay {
+  height: 894px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 a {
@@ -168,5 +171,9 @@ li {
   color: white;
   top: 50px;
   left: 393px;
+}
+.logisticservice {
+  background: color #edf4ec;
+  height: 500px;
 }
 </style>
