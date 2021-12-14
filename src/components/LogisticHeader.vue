@@ -26,23 +26,57 @@
     </div>
     <!-- jumbotron -->
     <div id="jumbotron"></div>
-        <div id="logo">
-        </div>
-        <div id="vociMenu">
-        <ul>
-            <li>
-               <a href="">HOME</a>
-            </li>
-        </ul>
-       
-        </div>
+    <div id="logo">
+      <h1 class="logoFattoaMano">NEXT</h1>
     </div>
+    <h1 class="logoDue">GEN</h1>
+    <ul class="vocimenuCentratura">
+      <LogisticJumbotron
+        v-for="(voci, i) in vociMenu"
+        :key="i"
+        :dettagli="voci"
+      />
+    </ul>
+  </div>
 </template>
 
 <script>
+import LogisticJumbotron from "@/components/LogisticJumbotron.vue";
+
 export default {
   name: "LogisticHeader",
-  props: {},
+  components: {
+    LogisticJumbotron,
+  },
+  data() {
+    return {
+      vociMenu: [
+        {
+          text: "HOME",
+        },
+        {
+          text: "SERVICES",
+        },
+        {
+          text: "SKILLS",
+        },
+        {
+          text: "PARTNERS",
+        },
+        {
+          text: "BLOG",
+        },
+        {
+          text: "GET IN TOUCH",
+        },
+      ],
+      vociFooter: [
+        {
+          text: "",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -52,10 +86,18 @@ export default {
   width: 80%;
   margin: 0 auto;
 }
+.vocimenuCentratura {
+  position: absolute;
+  top: 55px;
+  right: 166px;
+  display: flex;
+  align-items: flex-end;
+}
 
 #barrainfo {
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
 }
 #container {
   height: 50px;
@@ -89,7 +131,7 @@ i {
   margin: 4px;
 }
 #jumbotron {
-    position: relative;
+  position: relative;
   margin-top: 13px;
   background-image: url("../../src/assets/jumbo.jpg");
   background-repeat: no-repeat;
@@ -98,10 +140,32 @@ i {
   width: 100%;
   background-position: -133px -187px;
 }
-#vociMenu{
-    position: absolute;
-    top: 50px;
-    right: 724px;
-}
 
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+#logo {
+  position: absolute;
+  height: 53px;
+  width: 112px;
+  top: 58px;
+  left: 279px;
+  background-color: #83a7a8;
+  border-radius: 20px 0px 0px 20px;
+  opacity: 0.3;
+}
+.logoFattoaMano {
+  color: #8cdadc;
+  text-align: center;
+}
+.logoDue {
+  position: absolute;
+  color: white;
+  top: 50px;
+  left: 393px;
+}
 </style>
