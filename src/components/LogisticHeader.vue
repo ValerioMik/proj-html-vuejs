@@ -39,7 +39,36 @@
         />
       </ul>
     </div>
-    <div class="logisticservice"></div>
+    <div class="colore">
+      <div class="logisticservice">
+        <div class="service">
+          <p>OURS BISNES AREA</p>
+          <h1>LOGISTIC SERVICES</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+            eius corrupti officia suscipit ducimus quidem dolorem vitae dolor
+            est dignissimos nulla recusandae reiciendis ullam, aliquam eligendi,
+            tempore quasi dolorum ipsam?
+          </p>
+        </div>
+        <div class="card">
+          <img src="src\assets\gallery-3.jpg" alt="foto prova" />
+          <h2>Tecnology</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+            accusamus ipsa ab in omnis aliquid 
+          </p>
+        </div>
+        <div class="card">
+          <img src="src\assets\gallery-5.jpg" alt="foto prova" />
+          <h2>trasport</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            ipsa iste vel deserunt dolorum inventore 
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -134,7 +163,7 @@ i {
   margin-top: 5px;
   background-image: url("../../src/assets/jumbo.jpg");
   background-repeat: no-repeat;
-  height: 1130px;
+  height: 894px;
   width: 100%;
   background-position: -133px -187px;
 }
@@ -142,7 +171,6 @@ i {
   height: 894px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-
 }
 
 a {
@@ -173,7 +201,25 @@ li {
   left: 393px;
 }
 .logisticservice {
-  background: color #edf4ec;
-  height: 500px;
+  width: 70%;
+  margin: 0 auto;
+  height: 50338px0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 65px;
+}
+.colore {
+  background-color: #edf4ec;
+}
+.card {
+  width: 25%;
+  background-color: white;
+  padding: 30px;
+   border-radius: 20px;
+  ;
+}
+.service {
+  width: 25%;
 }
 </style>

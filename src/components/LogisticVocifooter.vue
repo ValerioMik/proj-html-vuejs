@@ -2,7 +2,7 @@
   <div class="about">
         <h2>{{dettagli.title}}</h2>
         <ul>
-          <li v-for="voce, i in dettagli.options" :key="i">{{voce}}</li>
+          <li v-for="voce, i in dettagli.options" :key="i"><i class="fas fa-chevron-right"></i>{{voce}}</li>
         </ul>
       </div>
 </template>
@@ -26,5 +26,12 @@ h2,li {
 }
 .info {
   margin: 27px 0px;
+}
+li {
+  list-style-type: none;
+}
+.fas{
+    margin-right: 20px;
+    margin-top: 6px;
 }
 </style>

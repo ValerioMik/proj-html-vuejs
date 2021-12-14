@@ -24,6 +24,7 @@
             <i class="fas fa-map-marker-alt"></i>
             <span>Hello@example.com</span>
           </div>
+          <button>GET in TOUCH</button>
         </section>
       </div>
       <!-- about -->
@@ -73,7 +74,7 @@ export default {
   filter: brightness(0.9) contrast(1);
   height: 500px;
   width: 100%;
-  margin-top: 881px;
+      margin-top: 2000px;
   bottom: 3px;
   background-position: -113px -359px;
 }
