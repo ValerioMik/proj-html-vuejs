@@ -25,7 +25,7 @@
       </div>
     </div>
     <!-- jumbotron -->
-    <div id="jumbotron"></div>
+    <div id="jumbotron">
     <div id="logo">
       <h1 class="logoFattoaMano">NEXT</h1>
     </div>
@@ -37,6 +37,7 @@
         :dettagli="voci"
       />
     </ul>
+    </div>
   </div>
 </template>
 
@@ -131,8 +132,8 @@ i {
   margin: 4px;
 }
 #jumbotron {
-  position: relative;
-  margin-top: 13px;
+/*   position: relative;
+ */  margin-top: 5px;
   background-image: url("../../src/assets/jumbo.jpg");
   background-repeat: no-repeat;
   filter: brightness(0.6) contrast(1);
