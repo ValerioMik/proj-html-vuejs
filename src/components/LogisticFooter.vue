@@ -24,14 +24,17 @@
             <i class="fas fa-map-marker-alt"></i>
             <span>Hello@example.com</span>
           </div>
-          <button>GET in TOUCH</button>
+          <div class="buttonbianco">
+            <a href="#"><h4 class="colreazzurro">Get in touch</h4></a>
+          </div>
         </section>
       </div>
       <!-- about -->
       <LogisticVocifooter
-       v-for="(voce, i) in vociFooter"
+        v-for="(voce, i) in vociFooter"
         :key="i"
-        :dettagli="voce"/>
+        :dettagli="voce"
+      />
     </div>
   </div>
 </template>
@@ -48,17 +51,41 @@ export default {
     return {
       vociFooter: [
         {
-          title:"About",
-          options: ["Voce 1","voce2","voce3","voce4","voce5","voce6","voce7"]
+          title: "About",
+          options: [
+            "Voce 1",
+            "voce2",
+            "voce3",
+            "voce4",
+            "voce5",
+            "voce6",
+            "voce7",
+          ],
         },
         {
-          title:"Transport",
-          options: ["Voce 1","voce2","voce3","voce4","voce5","voce6","voce7"]
+          title: "Transport",
+          options: [
+            "Voce 1",
+            "voce2",
+            "voce3",
+            "voce4",
+            "voce5",
+            "voce6",
+            "voce7",
+          ],
         },
         {
-          title:"Company",
-          options: ["Voce 1","voce2","voce3","voce4","voce5","voce6","voce7"]
-        }
+          title: "Company",
+          options: [
+            "Voce 1",
+            "voce2",
+            "voce3",
+            "voce4",
+            "voce5",
+            "voce6",
+            "voce7",
+          ],
+        },
       ],
     };
   },
@@ -106,6 +133,9 @@ export default {
   border-radius: 20px 20px 20px 20px;
   background-color: rgba(255, 255, 255, 0.1);
 }
+a{
+  text-decoration: none;
+  }
 
 span,
 i,
@@ -116,5 +146,16 @@ h2 {
 .info {
   margin: 27px 0px;
 }
-
+.buttonbianco {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px #048383;
+}
+h4{
+  color: white;
+}
 </style>
