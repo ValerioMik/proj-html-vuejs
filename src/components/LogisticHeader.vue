@@ -66,6 +66,20 @@
             est dignissimos nulla recusandae reiciendis ullam, aliquam eligendi,
             tempore quasi dolorum ipsam?
           </p>
+          <div class="bottoni">
+                <div class="button chiaro">
+                <a href="#"><h4>See ALL</h4></a>
+                </div>
+                <div class="button chiaro">
+                <a href="#"><h4>See ALL</h4></a>
+                </div>
+                <div class="button chiaro">
+                <a href="#"><h4>See ALL</h4></a>
+                </div>
+          </div>
+           <div class="button">
+            <a href="#"><h4>See ALL</h4></a>
+          </div>
         </div>
         <div class="card">
           <img src="../assets/gallery-3.jpg" alt="foto prova" />
@@ -273,10 +287,19 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  margin: 5px;
+}
+.chiaro {
+  background-color: #94dddd;
 }
 .duebutt {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.bottoni {
+  display: flex;
+  justify-content: space-around;
 }
 </style>
