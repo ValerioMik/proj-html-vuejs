@@ -69,7 +69,89 @@
       </div>
     </div>
     <!-- newsletter -->
+    <div class="newsletter">
+      <div class="centraturaloghi centdue">
+        <div class="know">
+          <div>
+            <p class="piccoloP">newsletter</p>
+          </div>
+          <div id="sfondititoli2">
+            <h1 class="h1nero">Know</h1>
+          </div>
+          <div id="company">
+            <h1 class="colreazzurro">first</h1>
+          </div>
+          <div class="contenitore">
+            <div class="paragrafo">
+              <p class="sottotioli2">Lorem, ipsum dolor sit amet consect</p>
+            </div>
+          </div>
+        </div>
+        <div class="input">
+          <div><input type="text" placeholder="Name" /></div>
+          <div><input type="text" placeholder="Email" /></div>
+          <div class="button">
+            <a href="#"><h4>Subscribe</h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Invio messaggi -->
+    <div class="messaggi">
+      <div class="centraturamessaggi">
+        <div class="sx">
+          <div><div>
+            <p class="piccoloP">newsletter</p>
+          </div>
+          <div id="company">
+            <h1 class="h1nero">Get In</h1>
+          </div>
+          <div id="sfondititoli2">
+            <h1 class="colreazzurro">Touch</h1>
+          </div>
+          <div class="contenitore">
+            <div class="paragrafo">
+              <p class="sottotioli2">Lorem, ipsum dolor sit amet consect</p>
+            </div>
+            <div class="scrivimessaggio">
+              </div><input class="mess" type="text" placeholder="Name"> <input class="mess" type="text" placeholder="Phone"></div>
+              <div><input class="mess" type="text" placeholder="Email"> <input class="mess" type="text" placeholder="More info"></div>
+            </div>
+            <div><input class="messdue" type="text" placeholder="Message"></div>
+            <div class="button">
+            <a href="#"><h4>Send</h4></a>
+          </div>
+          </div>
+        <div class="dx">
+          <div class="orariLogo">
+            <p class="sottotioli2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            </p>
+            <section class="orari">
+              <i class="far fa-clock"></i>
+              <span>Open Hours: Mon - sat - 9:00 - 18:00</span>
+            </section>
+            <section class="numeri">
+              <div class="info">
+                <i class="fas fa-phone-alt"></i>
+                <span>+1 (305)1234-5678</span>
+              </div>
+              <div class="info">
+                <i class="fas fa-envelope"></i>
+                <span>Hello@example.com</span>
+              </div>
+              <div class="info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Hello@example.com</span>
+              </div>
+              <div class="buttonbianco">
+                <a href="#"><h4 class="colreazzurro">View Map</h4></a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -122,6 +204,10 @@ h4,
 .sottotioli2 {
   color: black;
 }
+.messaggi {
+  background-color: #e5ebe5;
+  width: 100%;
+}
 #sfondititoli {
   background-color: #0c2a2b;
   border-radius: 5px;
@@ -160,6 +246,7 @@ h4,
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
+  justify-content: space-between;
 }
 .cardlogo {
   width: 16%;
@@ -183,7 +270,7 @@ img {
 #sfondititoli2 {
   background-color: #bfdcdd;
   border-radius: 5px;
-  width: 88px;
+  width: 111px;
   text-align: center;
   display: inline-block;
 }
@@ -199,6 +286,15 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+}
+.buttonbianco {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px #048383;
 }
 a {
   text-decoration: none;
@@ -227,5 +323,43 @@ a {
   display: flex;
   align-items: flex-end;
   text-align: center;
+}
+
+.newsletter {
+  background-image: url("../../src/assets/bg-1.jpg");
+  background-position: left -350px bottom -269px;
+  height: 504px;
+  width: 100%;
+  display: flex;
+}
+input {
+  width: 500px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  filter: opacity(0.3);
+  padding-left: 15px;
+}
+.centdue {
+  width: 60%;
+}
+.centraturamessaggi{
+  width: 70%;
+  margin: 75px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scrivimessaggio{
+  display: flex;
+}
+.mess{
+width: 238px;
+}
+.messdue{
+  height: 150px;
+}
+.info {
+  margin: 60px 0px;
 }
 </style>

@@ -38,6 +38,22 @@
           :dettagli="voci"
         />
       </ul>
+      <div class="overflow2"></div>
+      <div class="future">
+        <h1 class="titolo">logistics that goes Future.</h1>
+        <p class="bianco">
+          for 20 years working with the most innovation in the field of
+          traspport
+        </p>
+        <div class="duebutt">
+          <div class="button">
+            <a href="#"><h4>Send</h4></a>
+          </div>
+          <div class="buttonbianco">
+            <a href="#"><h4 class="colreazzurro">View Map</h4></a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="colore">
       <div class="logisticservice">
@@ -52,19 +68,19 @@
           </p>
         </div>
         <div class="card">
-          <img src="src\assets\gallery-3.jpg" alt="foto prova" />
+          <img src="../assets/gallery-3.jpg" alt="foto prova" />
           <h2>Tecnology</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
-            accusamus ipsa ab in omnis aliquid 
+            accusamus ipsa ab in omnis aliquid
           </p>
         </div>
         <div class="card">
-          <img src="src\assets\gallery-5.jpg" alt="foto prova" />
+          <img src="../assets/gallery-5.jpg" alt="foto prova" />
           <h2>trasport</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            ipsa iste vel deserunt dolorum inventore 
+            ipsa iste vel deserunt dolorum inventore
           </p>
         </div>
       </div>
@@ -211,10 +227,56 @@ li {
   width: 25%;
   background-color: white;
   padding: 30px;
-   border-radius: 20px;
-  ;
+  border-radius: 20px;
 }
 .service {
   width: 25%;
+}
+img {
+  width: 100%;
+}
+.future {
+  position: absolute;
+  top: 140px;
+  right: 325px;
+  width: 263px;
+}
+.overflow2 {
+  background-color: #048383;
+  position: absolute;
+  top: 190px;
+  right: 383px;
+  width: 203px;
+  height: 25px;
+}
+.titolo {
+  font-size: 50px;
+  color: white;
+}
+.bianco {
+  color: white;
+}
+.buttonbianco {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px #048383;
+}
+.button {
+  background-color: #048383;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.duebutt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 </style>
