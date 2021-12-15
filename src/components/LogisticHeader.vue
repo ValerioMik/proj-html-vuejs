@@ -158,13 +158,8 @@ i {
   margin: 4px;
 }
 #jumbotron {
-  /*   position: relative;
- */
   margin-top: 5px;
   background-image: url("../../src/assets/jumbo.jpg");
-  background-repeat: no-repeat;
-  height: 894px;
-  width: 100%;
   background-position: -133px -187px;
 }
 .overlay {
