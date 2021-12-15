@@ -67,17 +67,17 @@
             tempore quasi dolorum ipsam?
           </p>
           <div class="bottoni">
-                <div class="button chiaro">
-                <a href="#"><h4>See ALL</h4></a>
-                </div>
-                <div class="button chiaro">
-                <a href="#"><h4>See ALL</h4></a>
-                </div>
-                <div class="button chiaro">
-                <a href="#"><h4>See ALL</h4></a>
-                </div>
+            <div class="button chiaro">
+              <a href="#"><h4>See ALL</h4></a>
+            </div>
+            <div class="button chiaro">
+              <a href="#"><h4>See ALL</h4></a>
+            </div>
+            <div class="button chiaro">
+              <a href="#"><h4>See ALL</h4></a>
+            </div>
           </div>
-           <div class="button">
+          <div class="button">
             <a href="#"><h4>See ALL</h4></a>
           </div>
         </div>
@@ -258,10 +258,10 @@ img {
 .overflow2 {
   background-color: #048383;
   position: absolute;
-  top: 190px;
+  top: 206px;
   right: 383px;
   width: 203px;
-  height: 25px;
+  height: 22px;
 }
 .titolo {
   font-size: 50px;
