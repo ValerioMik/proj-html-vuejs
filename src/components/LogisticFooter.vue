@@ -74,7 +74,6 @@ export default {
   filter: brightness(0.9) contrast(1);
   height: 500px;
   width: 100%;
-      margin-top: 2000px;
   bottom: 3px;
   background-position: -113px -359px;
 }
@@ -117,4 +116,5 @@ h2 {
 .info {
   margin: 27px 0px;
 }
+
 </style>
