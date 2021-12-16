@@ -2,7 +2,7 @@
   <div class="about">
         <h2>{{dettagli.title}}</h2>
         <ul>
-          <li v-for="voce, i in dettagli.options" :key="i"><i class="fas fa-chevron-right"></i>{{voce}}</li>
+          <li v-for="voce, i in dettagli.options" :key="i"><a href=""><i class="fas fa-chevron-right"></i>{{voce}}</a></li>
         </ul>
       </div>
 </template>
@@ -20,10 +20,15 @@ export default {
 <style scoped lang="scss">
 span,
 i,
-h2,li {
+h2 {
   color: white;
   text-align: center;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .info {
   margin: 27px 0px;
 }

@@ -27,10 +27,11 @@
     <!-- jumbotron -->
     <div id="jumbotron">
       <div class="overlay"></div>
-      <div id="logo">
-        <h1 class="logoFattoaMano">NEXT</h1>
+      <div class="logoprinc">
+        <div class="over"></div>
+        <div id="sfondititoli"><h1>Nex</h1></div>
+        <div id="company"><h1>Gen</h1></div>
       </div>
-      <h1 class="logoDue">GEN</h1>
       <ul class="vocimenuCentratura">
         <LogisticJumbotron
           v-for="(voci, i) in vociMenu"
@@ -68,17 +69,17 @@
           </p>
           <div class="bottoni">
             <div class="button chiaro">
-              <a href="#"><h4>See ALL</h4></a>
+              <a href="#"><h4>Tradition</h4></a>
             </div>
             <div class="button chiaro">
-              <a href="#"><h4>See ALL</h4></a>
+              <a href="#"><h4>Quality</h4></a>
             </div>
             <div class="button chiaro">
-              <a href="#"><h4>See ALL</h4></a>
+              <a href="#"><h4>Security</h4></a>
             </div>
           </div>
           <div class="button">
-            <a href="#"><h4>See ALL</h4></a>
+            <a href="#"><h4>Read More</h4></a>
           </div>
         </div>
         <div class="card">
@@ -205,20 +206,7 @@ a {
 li {
   list-style-type: none;
 }
-#logo {
-  position: absolute;
-  height: 53px;
-  width: 112px;
-  top: 58px;
-  left: 279px;
-  background-color: #83a7a8;
-  border-radius: 20px 0px 0px 20px;
-  opacity: 0.3;
-}
-.logoFattoaMano {
-  color: #8cdadc;
-  text-align: center;
-}
+
 .logoDue {
   position: absolute;
   color: white;
@@ -254,6 +242,33 @@ img {
   top: 140px;
   right: 325px;
   width: 263px;
+}
+.logoprinc{
+  position: absolute;
+  top: 45px;
+  left: 325px;
+  width: 263px;
+}
+#sfondititoli {
+  display: inline-block;
+  color: #088181;
+}
+.over{
+  background-color: #88e2e3;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px 0px 0px 20px;
+    opacity: 0.3;
+    position: absolute;
+    top: 15px;
+    left: -24px;
+    width: 83px;
+    height: 50px;
+}
+
+#company {
+  display: inline-block;
+  color: white;
 }
 .overflow2 {
   background-color: #048383;

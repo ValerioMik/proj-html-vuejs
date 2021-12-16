@@ -11,21 +11,25 @@
           consectetur, adipisicing elit.
         </p>
         <div class="containerPercentuali">
+          <div class="percsx">
           <div class="circlePercentuale">0%</div>
+          <div class="circlePercentuale">0%</div>
+          <div class="circlePercentuale">1%</div>
+          </div>
+            <div class="paragrafidx">
           <div class="dx">
             <h2>Leaderschip</h2>
             <p>Lorem ipsum dolor cupiditate necessitatibus aliquid quidem.</p>
           </div>
-          <div class="circlePercentuale">0%</div>
           <div class="dx">
             <h2>Psychology</h2>
             <p>Lorem ipsum dolor cupiditate necessitatibus aliquid quidem.</p>
           </div>
-          <div class="circlePercentuale">1%</div>
           <div class="dx">
             <h2>Flexibility</h2>
             <p>Lorem ipsum dolor cupiditate necessitatibus aliquid quidem.</p>
           </div>
+            </div>
         </div>
       </div>
     </div>
@@ -164,6 +168,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.percsx{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.paragrafidx{
+      width: 317px;
+      flex-direction: column;
+    justify-content: space-between;
+}
 .centratura {
   margin: 116px 238px;
 }
