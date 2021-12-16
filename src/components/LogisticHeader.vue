@@ -58,6 +58,7 @@
     </div>
     <div class="colore">
       <div class="logisticservice">
+        <a name="service"></a>
         <div class="service">
           <p>OURS BISNES AREA</p>
           <h1>LOGISTIC SERVICES</h1>
@@ -116,21 +117,27 @@ export default {
       vociMenu: [
         {
           text: "HOME",
+          link:"#"
         },
         {
           text: "SERVICES",
+          link:"#service"
         },
         {
           text: "SKILLS",
+          link:"#skills"
         },
         {
           text: "PARTNERS",
+          link:"#partners"
         },
         {
           text: "BLOG",
+          link:"#blog"
         },
         {
           text: "GET IN TOUCH",
+          link:"#get"
         },
       ],
     };

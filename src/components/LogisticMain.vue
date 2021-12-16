@@ -2,6 +2,7 @@
   <div id="containerMain">
     <!-- info -->
     <div class="sezione percentuali">
+      <a name="skills"></a>
       <div class="centratura">
         <p class="piccoloP">about the network</p>
         <div id="sfondititoli"><h1>THE</h1></div>
@@ -36,6 +37,7 @@
     <div class="sezione immagine"></div>
     <!-- loghi -->
     <div class="loghiAziende">
+      <a name="partners"></a>
       <div class="centraturaloghi">
         <div class="cardlogo"><img src="..\assets\logo-5.png" alt="" /></div>
         <div class="cardlogo"><img src="..\assets\logo-1.png" alt="" /></div>
@@ -47,6 +49,7 @@
     </div>
     <!-- news -->
     <div class="news">
+      <a name="blog"></a>
       <div class="centraturaH1">
         <p class="piccoloP">about the network</p>
         <div id="company"><h1 class="h1nero">Latest</h1></div>
@@ -102,6 +105,7 @@
     </div>
     <!-- Invio messaggi -->
     <div class="messaggi">
+      <a name="get"></a>
       <div class="centraturamessaggi">
         <div class="sx">
           <div><div>

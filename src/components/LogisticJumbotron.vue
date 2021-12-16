@@ -1,7 +1,7 @@
 <template>
   <!-- jumbotron -->
   <li id="vociMenu">
-    <a href="#">{{ dettagli.text }}</a>
+    <a :href="dettagli.link">{{ dettagli.text }}</a>
   </li>
 </template>
 
